@@ -19,10 +19,13 @@ This Discord bot is designed to automate the process of uploading a grid of imag
 ## Setup
 
 1. Clone the Repository:
-Clone this repository to your local machine using git clone https://github.com/MadeBySaints/Image2Discord.git. Navigate into the project directory with cd Image2Discord.
+Clone this repository to your local machine:
+git clone https://github.com/MadeBySaints/Image2Discord.git.
+Navigate into the project directory:
+cd Image2Discord.
 
 3. Install Dependencies:
-Run pip install discord.py tqdm.
+pip install discord.py tqdm.
 
 4. Discord Bot Token and Permissions:
 Create a bot on the Discord Developer Portal and obtain your bot's token. Invite the bot to your server with the appropriate permissions (at least Send Messages and Attach Files). Enable all intents for your bot in the Discord Developer Portal.
@@ -32,7 +35,7 @@ Edit Config.json to use your bot token and channel ID for discord.
 
 ## Usage
 
-Run the bot by executing python dumper.py in your terminal. The bot will log in to Discord, upload all eligible images and video from the bot's working directory to the specified channel, and delete them afterward.
+Run the bot by executing python dumper.py in your terminal. The bot will log in to Discord, upload all eligible images and video from the bot's working directory to the specified channel automatically, and delete them afterward.
 
 ## Contributing
 
