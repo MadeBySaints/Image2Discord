@@ -40,7 +40,11 @@ Edit Config.json to use your bot token and channel ID for discord.
 
 ## Usage
 
-Run the bot by executing python dumper.py in your terminal. The bot will log in to Discord, upload all eligible images and video from the bot's working directory to the specified channel automatically, and delete them afterward.
+8. Run the bot:
+
+python dumper.py
+
+The bot will log in to Discord, upload all eligible images and video from the bot's working directory to the specified channel automatically, and delete them from the folder afterward.
 
 ## Contributing
 
