@@ -22,7 +22,7 @@ This Discord bot is designed to automate the process of uploading a grid of imag
 
 git clone https://github.com/MadeBySaints/Image2Discord.git
 
-Navigate into the project directory:
+2. Navigate into the project directory:
 
 cd Image2Discord.
 
