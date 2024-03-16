@@ -30,17 +30,17 @@ cd Image2Discord.
 
 pip install discord.py tqdm.
 
-5. Discord Bot Token and Permissions:
+4. Discord Bot Token and Permissions:
 
 Create a bot on the Discord Developer Portal and obtain your bot's token. Invite the bot to your server with the appropriate permissions (at least Send Messages and Attach Files). Enable all intents for your bot in the Discord Developer Portal.
 
-7. Configuration:
+5. Configuration:
 
 Edit Config.json to use your bot token and channel ID for discord.
 
 ## Usage
 
-8. Run the bot:
+6. Run the bot:
 
 python dumper.py
 
